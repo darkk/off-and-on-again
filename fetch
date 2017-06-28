@@ -1,0 +1,4 @@
+#!/bin/bash -ex
+wget -c \
+    https://collector.torproject.org/archive/relay-descriptors/extra-infos/extra-infos-2017-0{1..4}.tar.xz \
+    https://collector.torproject.org/archive/relay-descriptors/server-descriptors/server-descriptors-2017-0{1..4}.tar.xz
