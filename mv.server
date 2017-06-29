@@ -1,0 +1,3 @@
+#!/bin/bash -ex
+mkdir -p server
+mv -i $(grep -rl '2402 CD5A 0D84 8D1D CA61 EB70 8CC1 FBD4 364A B8AE' server-descriptors-2017-0{1..4}) server/

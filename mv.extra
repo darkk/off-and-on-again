@@ -1,0 +1,3 @@
+#!/bin/bash -ex
+mkdir -p extra
+mv -i $(grep -rl 2402CD5A0D848D1DCA61EB708CC1FBD4364AB8AE extra-infos-2017-0{1..4}) extra/
